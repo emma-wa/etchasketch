@@ -1,0 +1,24 @@
+.container {
+  margin-bottom: 5px;
+}
+
+#grid {
+  border: .5px solid black;
+  max-height: 960px;
+}
+.row {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box {
+  height: 100%;
+  width: 100%;
+  border: .5px solid black;
+}
+
+.black {
+  background-color: black;
+}
